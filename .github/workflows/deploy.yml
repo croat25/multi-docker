@@ -20,7 +20,7 @@ jobs:
       - run: docker push brunosalapic/multi-nginx
       - run: docker push brunosalapic/multi-server
       - run: docker push brunosalapic/multi-worker
-      # sdfsdf
+      
       
       - name: Generate deployment package
         run: zip -r deploy.zip . -x '*.git*'
