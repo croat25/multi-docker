@@ -14,8 +14,8 @@ jobs:
       - run: docker build -t brunosalapic/multi-client ./client2
       - run: docker build -t brunosalapic/multi-server ./server
       - run: docker build -t brunosalapic/multi-worker ./worker
-      - run: docker push brunosalapic/multi-client
       - run: docker push brunosalapic/multi-nginx
+      - run: docker push brunosalapic/multi-client
       - run: docker push brunosalapic/multi-server
       - run: docker push brunosalapic/multi-worker
       
